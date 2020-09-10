@@ -42,6 +42,7 @@ y_test_labels = np.array(y_test)
 y_test_labels = np.array(y_test)    
 print("Predictions\t\t Actuals")
 for i in range(0,len(y_test)):
-    print(f"{y_model[i]}\t\t {y_test_labels[i]}")
+    if y_model[i] != y_test_labels[i]:                         ##Print mis-matches
+        print(f"{y_model[i]}\t\t {y_test_labels[i]}")
  
 
