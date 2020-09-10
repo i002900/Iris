@@ -3,7 +3,7 @@ This is very quick and simple demonstration of using the Gaussian Naive Bayes al
 
 <img src = "https://github.com/i002900/Iris/blob/master/iris_dataset.JPG">
 
-There are just 150 entries. These are split into a Test and training data set. The splitting is done using a standard train_test_split function available in sklearn. The standard function without any parameters gives a 75/25 split. Given the very small sample size, this has the effect of using a very large number of entries as a training set. This will give a hundred% score. We therefore split the set 50/50 by using the parameter train_size = 0.5.
+There are just 150 entries. These are split into a Test and Training data set. The splitting is done using a standard train_test_split function available in sklearn. The standard function without any parameters gives a 75/25 split. Given the very small sample size, this has the effect of using a very large number of entries as a training set. This will give a hundred % accuracy score! We therefore split the set 50/50 by using the parameter train_size = 0.5.
 
 The model is trained using the four features provided: Sepal length, sepal width, petal length and petal width.
 
