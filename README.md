@@ -10,6 +10,6 @@ The model is trained using the four features provided: Sepal length, sepal width
 This quick implementation gives a prediction accuracy of 0.94666
 <img src = "https://github.com/i002900/Iris/blob/master/iris_2.JPG">
 
-As can be seen out of a total of 75 species in the remainder Test set, only 4 were classified incorrectly.
+As can be seen out of a total of 75 species in the remainder Test set, only 4 were classified incorrectly. The mis-matches are printed out as shown below:
 
-<img src = "https://github.com/i002900/Iris/blob/master/iris_3.JPG">
+<img src = "https://github.com/i002900/Iris/blob/master/iris_5.JPG">
