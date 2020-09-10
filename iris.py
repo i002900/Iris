@@ -21,7 +21,7 @@ y_labels = iris['species']
 
 
 # Split this into a training and test data set
-X_train , X_test , y_train , y_test = train_test_split(X_array , y_labels , random_state = 0)
+X_train , X_test , y_train , y_test = train_test_split(X_array , y_labels , train_size = 0.5, random_state = 0)
 
 gnb = GaussianNB()  #instantiate the model from the class
 
