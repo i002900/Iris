@@ -8,7 +8,7 @@ There are just 150 entries. These are split into a Test and Training data set. T
 The model is trained using the four features provided: Sepal length, sepal width, petal length and petal width.
 
 This quick implementation gives a prediction accuracy of 0.94666
-<img src = "https://github.com/i002900/Iris/blob/master/iris_2.JPG">
+<img src = "https://github.com/i002900/Iris/blob/master/iris_4.JPG">
 
 As can be seen out of a total of 75 species in the remainder Test set, only 4 were classified incorrectly. The mis-matches are printed out as shown below:
 
